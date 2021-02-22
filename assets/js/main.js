@@ -7,10 +7,7 @@ const showResult = document.getElementById("show_result");
 const sipherIn = document.getElementById("sipher_in")
 const sipherOut = document.getElementById("sipher_out")
 
-
-
 function textChange() {
-
     let newText = ""
 
     keyNum = Number(keyOpt.value);
