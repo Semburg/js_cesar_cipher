@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Caesar Cipher</title>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="sipher">Cipher the Text</label>
+        <input type="radio" name="sipher" id="sipher_in" checked>
+        <br>
+        <label for="radio">Decipher!</label>
+        <input type="radio" name="sipher" id="sipher_out">
+        <br>
+        <label for="text_eingabe">Geben Sie Ihr Text ein:</label>
+        <input type="text" name="text_eingabe" id="work_text">
+        <br>
+
+        <select name="choose_of_key" id="key_opt">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> 
+        <label for="choose_of_key">Choose the key</label> <br> <br>
+        <input type="button" value="Do It!" onclick="textChange()">
+    </form>
+        <p id="show_result"></p>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
